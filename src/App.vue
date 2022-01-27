@@ -8,14 +8,18 @@
    <main-section></main-section>
    <!-- sezione blu -->
    <blue-section></blue-section>
+   <!-- sezione footer start -->
+   <footer-start></footer-start>
  </div>
 </template>
 
 <script>
+// importo componenti 
 import HeaderBox from './components/HeaderBox.vue'
 import JumbotronBox from './components/JumbotronBox.vue'
 import MainSection from './components/MainSection.vue'
 import BlueSection from './components/BlueSection.vue'
+import FooterStart from './components/FooterStart.vue'
 
 export default {
   name: 'App',
@@ -25,6 +29,7 @@ export default {
     JumbotronBox,
     MainSection,
     BlueSection,
+    FooterStart,
 
   }
 }
