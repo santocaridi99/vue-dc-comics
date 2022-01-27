@@ -31,7 +31,7 @@ header{
     width: 100%;
     justify-content: space-around;
     align-items: center;
-    height: 25vh;
+    height: 15vh;
     // container logo
     .logo{
         width: 60px;
@@ -45,12 +45,11 @@ header{
     ul{
         display: flex;
         li{
-            list-style: none;
             padding: 30px 10px;
             // hover della lista
             &:hover{
                 color: #107ae7;
-                border-bottom: 3px solid #107ae7; 
+                border-bottom: 5px solid #3297fb; 
                 cursor: pointer;
             }
         }
