@@ -10,6 +10,8 @@
    <blue-section></blue-section>
    <!-- sezione footer start -->
    <footer-start></footer-start>
+   <!-- sezione footer end -->
+   <footer-end></footer-end>
  </div>
 </template>
 
@@ -20,6 +22,7 @@ import JumbotronBox from './components/JumbotronBox.vue'
 import MainSection from './components/MainSection.vue'
 import BlueSection from './components/BlueSection.vue'
 import FooterStart from './components/FooterStart.vue'
+import  FooterEnd from './components/FooterEnd.vue'
 
 export default {
   name: 'App',
@@ -30,6 +33,7 @@ export default {
     MainSection,
     BlueSection,
     FooterStart,
+    FooterEnd
 
   }
 }
