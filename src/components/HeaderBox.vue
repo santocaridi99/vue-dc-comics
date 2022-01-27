@@ -25,6 +25,7 @@ export default {
 }
 </script>
 <style lang="scss" scoped>
+@import '@/style/variables.scss';
 header{
     // stile dell'header
     display: flex;
@@ -48,7 +49,7 @@ header{
             padding: 30px 10px;
             // hover della lista
             &:hover{
-                color: #107ae7;
+                color: $main-color;
                 border-bottom: 5px solid #3297fb; 
                 cursor: pointer;
             }
