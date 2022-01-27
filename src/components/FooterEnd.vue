@@ -32,6 +32,7 @@ export default {
         background-color: $black-special;
         padding: 15px;
         border:2px solid $main-color;
+        cursor: pointer;
     }
     .socials{
         display: flex;

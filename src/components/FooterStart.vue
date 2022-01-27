@@ -45,10 +45,10 @@
                     <li>DC Power Visa</li>
                 </ul>
             </div>
-        </div>
-        <!-- logo di background -->
-        <div class="bg-logo">
-            <img src="../assets/dc-logo-bg.png" alt="">
+             <!-- logo di background -->
+            <div class="bg-logo">
+              <img src="../assets/dc-logo-bg.png" alt="">
+            </div>
         </div>
     </div>
 </template>
