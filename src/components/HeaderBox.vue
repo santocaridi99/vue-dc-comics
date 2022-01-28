@@ -5,22 +5,23 @@
         </div>
         <nav>
             <ul>
-                <li>CHARACTERS</li>
-                <li>COMICS</li>
-                <li>MOVIES</li>
-                <li>TV</li>
-                <li>GAMES</li>
-                <li>COLLECTIBLES</li>
-                <li>VIDEOS</li>
-                <li>FANS</li>
-                <li>NEWS</li>
-                <li>SHOP</li>
+                <!-- per ogni list presente nell'array lists che corrisponde all'array navbar in App -->
+                <!-- creo delle li con chiave id-->
+                <!-- con un link a con url e testo -->
+                <li v-for='list in lists' :key='list.id'>
+                    <a :href="list.url">
+                        {{list.text}}
+                    </a>
+                </li>
             </ul>
         </nav>
     </header>
 </template>
 <script>
 export default {
+    props:{
+        lists:Array,
+    }
     
 }
 </script>
@@ -46,12 +47,15 @@ header{
     ul{
         display: flex;
         li{
-            padding: 30px 10px;
-            // hover della lista
-            &:hover{
-                color: $main-color;
-                border-bottom: 5px solid #3297fb; 
-                cursor: pointer;
+            padding: 0px 10px;
+            a{
+                color:black ;
+                &:hover{
+                    // hover ai link
+                    color: $main-color;
+                    padding: 30px 0;
+                    border-bottom: 5px solid #3297fb; 
+                }
             }
         }
     }
