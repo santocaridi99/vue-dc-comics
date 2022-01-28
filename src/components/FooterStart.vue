@@ -1,7 +1,7 @@
 <template>
 <!-- contenitore footer iniziale -->
     <div class="container-footer-start">
-        <!-- nav bar con i vari div con titoli e liste -->
+        <!-- nav bar con i vari div con titoli e liste con nomi specifici -->
         <div class="footer-nav">
             <div class="comics-shop">
                 <h3>DC COMICS</h3>
@@ -77,6 +77,7 @@ export default {
             bottom: -5%;
         }
     }
+    // navbar del footer 
     .footer-nav{
         display: flex;
         div{

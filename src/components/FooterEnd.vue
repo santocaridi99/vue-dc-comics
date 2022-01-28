@@ -1,7 +1,7 @@
 <template>
 <!-- seconda parte del footer -->
     <div class="container-footer-end">
-        <!-- bottone e un div con dentro le foto dei sociakls -->
+        <!-- bottone e un div con dentro le foto dei socials -->
         <button class="button sign-up">SIGN-UP NOW!</button>
         <div class="socials">
             <h3>FOLLOW US</h3>
@@ -19,6 +19,7 @@ export default {
 </script>
 <style lang="scss" scoped>
 @import '@/style/variables.scss';
+// stile della seconda parte del container
 .container-footer-end{
     background-color: $black-special;
     height: 15vh;
@@ -26,13 +27,14 @@ export default {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    // bottone interno
     button{
         color:$main-white-color;
         background-color: $black-special;
         padding: 15px;
         border:2px solid $main-color;
-        cursor: pointer;
     }
+    // contenitore dei socials con testo + img
     .socials{
         display: flex;
         align-items: center;

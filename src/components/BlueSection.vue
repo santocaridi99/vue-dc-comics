@@ -32,6 +32,7 @@ export default {
 </script>
 <style lang="scss" scoped>
 @import '@/style/variables.scss';
+// stile del contenitore blu con dentro lista di immagini + testo
 .container-blue{
     background-color: $main-color;
     height: 25vh;

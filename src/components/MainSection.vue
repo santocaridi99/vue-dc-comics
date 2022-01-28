@@ -9,6 +9,8 @@
              <img :src="card.thumb" alt="card.series">
              <div class="text-box">{{card.series}}</div>
             </div> 
+            <!-- un banner nel container -->
+            <div class="banner">CURRENT SERIES</div>
         </div>
         <!-- bottone in basso al main -->
         <div class="button-container">
@@ -32,6 +34,7 @@ main{
     background-color:$black-special;
     // contenitore carte
     .card-container{
+        position: relative;
         width: 1200px;
         margin: 0 auto;
         display: flex;
@@ -44,6 +47,7 @@ main{
             height: 280px;
             margin-left: 20px;
             margin-top: 10px;
+            cursor: pointer;
             // immagine
             img{
                 width: 100%;
@@ -54,6 +58,16 @@ main{
                 color: $main-white-color;
                 padding: 15px 0;
             }   
+        }
+        // banner
+        .banner{
+            position: absolute;
+            color:$main-white-color;
+            background-color: $main-color;
+            top: -30px;
+            font-weight: bold;
+            padding: 20px 50px;
+            font-size: 20px;
         }
       
     }
