@@ -70,7 +70,6 @@ export default {
     .bg-logo{
         height: 50%;
         img{
-            z-index: 1;
             width: 30%;
             height: 100%;
             position:absolute;

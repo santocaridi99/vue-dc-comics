@@ -23,7 +23,6 @@ export default {
     background-color: $black-special;
     height: 15vh;
     width: 100%;
-    z-index: 1000;
     display: flex;
     justify-content: space-around;
     align-items: center;
