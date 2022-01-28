@@ -19,6 +19,7 @@
 </template>
 <script>
 export default {
+    // variabili che vengono passate dal padre(app)
     props:{
         lists:Array,
     }
